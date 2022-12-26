@@ -1,0 +1,31 @@
+{
+	"name": "MyRelatedArticle",
+	"version": "0.0.0",
+	"author": [
+		"Tan, Kian-ting"
+	],
+	"url": "",
+	"descriptionmsg": "my-related-article-desc",
+	"license-name": "MIT",
+	"type": "other",
+  "AutoloadClasses": {
+    "MyRelatedArticle": "includes/MyRelatedArticle.php"
+  },
+
+	"SpecialPages": {
+		"MyRelatedArticle": "MyRelatedArticle"
+	},
+	"MessagesDirs": {
+		"MyRelatedArticle": [
+			"i18n"
+		]
+	},
+	"manifest_version": 2,
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"platform": {
+			"php": ">= 5.6"
+		}
+	}
+}
+
